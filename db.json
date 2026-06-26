@@ -5,16 +5,16 @@
     "Dịch Covid19"
   ],
   "topMenu": [
-    "Trang chủ",
-    "Sự kiện",
-    "doanh nghiệp",
-    "tiếp thị",
-    "kinh tế",
-    "xã hội",
-    "Pháp luật",
-    "quốc tế",
-    "video"
-  ],
+  { "text": "Trang chủ", "icon": "assets/icons/home_icon.svg" },
+  { "text": "Sự kiện" },
+  { "text": "doanh nghiệp" },
+  { "text": "tiếp thị" },
+  { "text": "kinh tế" },
+  { "text": "xã hội" },
+  { "text": "Pháp luật" },
+  { "text": "quốc tế" },
+  { "text": "video" }
+],
   "megaMenu": [
     {
       "title": "SỰ KIỆN",
@@ -345,6 +345,17 @@
   "sidebar": {
     "banners": []
   },
+  "bottomMenu": [
+    "Trang chủ",
+    "Sự kiện",
+    "doanh nghiệp",
+    "tiếp thị",
+    "kinh tế",
+    "xã hội",
+    "Pháp luật",
+    "quốc tế",
+    "video"
+  ],
   "footer": {
     "name": "Logo Here Newspaper",
     "address": "85 Vũ Trọng Phụng, Thanh Xuân, Hà Nội",

@@ -32,24 +32,35 @@ function renderHeaderMenu(menu) {
     const container = document.querySelector("header .hot-topic");
 
     container.innerHTML = menu.map((item, index) => `
-        <span class="hot-topic-text ${index === 0 ? "active" : ""}">
-            ${item}
-        </span>
+
+        <div class="hot-topic-item ${index === 0 ? "active" : ""}">
+
+            ${item.icon ? `
+                <div class="topic-icon">
+                    <img src="${item.icon}" alt="">
+                </div>
+            ` : ""}
+
+            <span class="topic-text">
+                ${item.text}
+            </span>
+
+        </div>
+
     `).join("");
 
-    container.querySelectorAll(".hot-topic-text").forEach(span => {
+    container.querySelectorAll(".hot-topic-item").forEach(el => {
 
-        span.addEventListener("click", () => {
+        el.addEventListener("click", () => {
 
-            container.querySelectorAll(".hot-topic-text")
-                .forEach(s => s.classList.remove("active"));
+            container.querySelectorAll(".hot-topic-item")
+                .forEach(i => i.classList.remove("active"));
 
-            span.classList.add("active");
+            el.classList.add("active");
 
         });
 
     });
-
 }
 function renderMegaMenu(menuData, bottomData){
 
@@ -310,16 +321,15 @@ function renderFooter(footer = {}) {
         `;
     }
 }
-    function renderFooterMenu(menu) {
+  function renderFooterMenu(menu) {
 
     const container = document.querySelector("#footer-menu");
 
     container.innerHTML = menu.map(item => `
-        <span class="hot-topic-text">
-            ${item}
-        </span>
+        <div class="hot-topic-item">
+            <span class="topic-text">${item}</span>
+        </div>
     `).join("");
-
 }
 
 // =========================
@@ -350,7 +360,7 @@ function renderMobileFeaturedCards(featured, rightNews) {
             <div class="mfc-meta">
                 <span class="news-topic">${news.category}</span>
                 <span class="mfc-share">
-                    <img src="assets/icons/share_icon.svg"
+                    <img src="assets/icons/facebook_icon.svg"
                          alt="Chia sẻ"
                          style="width:14px;height:14px;">
                     Chia sẻ
@@ -469,7 +479,7 @@ fetch("./db.json")
 
         renderFooter(data.footer);
 
-        renderFooterMenu(data.topMenu);
+        renderFooterMenu(data.bottomMenu);
 
         setupMobileNav();
 
