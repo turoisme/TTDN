@@ -1,0 +1,851 @@
+/* =========================
+   RESET CSS
+========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+/* =========================
+   LAYOUT 
+========================= */
+.container{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* =========================
+   HEADER
+========================= */
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 113px;
+    padding: 20px 0;
+}
+
+.header-logo img{
+    width: 187.6px;
+    height: 42px;
+}
+.hashtag-icons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hashtag-icon{
+    width: 10px;
+    height: 15px;
+}
+
+.hashtag{
+    background: #e6e6e6;
+    font-size: 14px;
+    font-weight: bold;
+    color: #454545;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+/* =========================
+   HOT TOPICS
+========================= */
+
+.hot-topics{
+    display: flex;
+    background-color: #095AAA;
+    height: 39px;
+    align-items: center;
+}
+.home-icon
+{
+    width: 20px;
+    height: 20px;
+}
+.search-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+}
+
+.hot-topic{
+    display: flex;
+    color: white;
+    padding: 8px 5px;
+    gap: 23px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.hot-topics .container{
+    display:flex;
+    align-items:center;
+}
+
+/* =========================
+   MENU
+========================= */
+
+#main-menu{
+    display: flex;
+
+}
+
+/* =========================
+   TOP NEWS
+========================= */
+
+.top-news{
+    display:grid;
+    grid-template-columns:228px 1fr 320px;
+    margin-top:20px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.news-topic{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #147ADE;
+    font-weight: bold;
+}
+#left-news{
+    height: 500px;
+}
+.left-news-item{
+    padding-bottom: 15px;
+    margin-right: 20px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.left-news-item:last-child{
+    border-bottom: none;
+}
+.left-news-item h2{
+    font-weight: bold;
+    font-size: 16px;
+}
+#right-news{
+    height: 500px;
+    padding: 20px;
+}
+.right-news-item{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.right-news-item:last-child{
+    border-bottom: none;
+}
+.right-news-title h2{
+    font-size: 19px;
+    font-weight: bold;
+}
+.right-news-content{
+    display: flex;
+    gap: 15px;
+}
+.right-news-img img{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+}
+.right-news-text{
+    flex: 1;
+}
+.right-news-desc{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;      /* Hiển thị tối đa 4 dòng */
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+}
+#featured-news{
+    height: 500px;
+}
+.featured-news-item{
+       padding-right: 20px;
+       border-right: 1px solid #E6E6E6;
+       padding-left: 20px;
+       border-left: 1px solid #E6E6E6;
+       display: flex;
+       flex-direction: column;
+}
+/* PC & Mobile: ảnh → title → category → desc (thứ tự HTML tự nhiên) */
+.featured-news-category { display: block; margin: 4px 0; }
+.featured-news-desc     { font-size: 14px; color: #444; margin-top: 6px; }
+.featured-news-item img{
+    width: 100%;
+    height: 283px;
+    object-fit: cover;
+}
+
+
+
+/* =========================
+   FEATURED NEWS META (share bar)
+========================= */
+.featured-news-meta {
+    display: none; /* chỉ hiện trên mobile qua media query */
+}
+.featured-news-share {
+    font-size: 12px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+/* =========================
+   CONTENT SECTION
+========================= */
+
+.content-section{
+    display: flex;
+    margin-top: 40px;
+}
+
+/* =========================
+   ARTICLE LIST
+========================= */
+
+#article-list{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Article Card */
+.article-card{
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    width: 700px;
+    margin-right: 20px;
+}
+.article-image img{
+    width: 260px;
+    height: 163px;
+    object-fit: cover;
+}
+
+.article-content{
+    display: flex;
+    flex-direction: column;
+}
+.article-title{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+#sidebar{
+    width: 300px;
+    background-color: #e6e6e6;
+    margin-left: 20px;
+}
+
+/* =========================
+   LOAD MORE
+========================= */
+
+.load-more-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+#load-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 24px;
+    min-width: 130px;
+    min-height: 42px;
+    cursor: pointer;
+    border: none;
+    background-color: #147ADE;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: opacity 0.2s;
+}
+
+#load-more:disabled {
+    cursor: not-allowed;
+    opacity: 0.85;
+}
+
+.spinner {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+.load-more img{
+    width: 6px;
+    height: 10px;
+    display: block;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    width:100%;
+    border-top:1px solid #ddd;
+    margin-top:50px;
+}
+
+#bottom-footer{
+    background-color: #095AAA;
+}
+
+#bottom-footer .container{
+    display: grid;
+    grid-template-columns: 220px 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    min-height: 167px;
+    padding: 20px 0;
+}
+
+.footer-logo{
+    padding: 0 20px;
+}
+.footer-logo img{
+    width: 142.53px;
+    height: 31.91px;
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-right: 30px;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.footer-contacts h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.footer-contacts p,
+.footer-contacts a{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.footer-info p{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+footer .hot-topics{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+/* =========================
+   MEGA MENU
+========================= */
+
+#mega-menu{
+    display:none;
+    position:absolute;
+    top:152px;
+    left:50%;
+    transform:translateX(-50%);
+    width:1040px;
+    background:#fff;
+    padding:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+    z-index:999;
+}
+
+#mega-menu.show{
+    display:block;
+}
+
+.mega-menu-content{
+    display:grid;
+
+    grid-template-columns:
+        repeat(7,1fr);
+
+    gap:30px;
+}
+
+.menu-column h3{
+    color:#095AAA;
+
+    font-size:14px;
+
+    margin-bottom:20px;
+}
+
+.menu-column ul{
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+}
+
+.menu-column li{
+    font-size:12px;
+
+    color:#333;
+
+    cursor:pointer;
+}
+
+.menu-column li:hover{
+    color:#095AAA;
+}
+.mega-menu-bottom{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:40px;
+
+    margin-top:30px;
+
+    padding-top:20px;
+
+    border-top:1px solid #e6e6e6;
+}
+
+.mega-bottom-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+}
+
+.mega-bottom-item img{
+
+    width:24px;
+
+    height:24px;
+}
+
+.mega-bottom-item span{
+
+    font-size:14px;
+
+    color:#616161;
+}
+
+/* =========================
+   RESPONSIVE — LAPTOP 1366×768
+========================= */
+@media (max-width: 1366px) {
+    .container {
+        max-width: 960px;
+        padding: 0 16px;
+    }
+
+    .top-news {
+        grid-template-columns: 200px 1fr 280px;
+    }
+
+    .article-card {
+        width: 100%;
+    }
+
+    .featured-news-item img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #mega-menu {
+        width: 960px;
+    }
+}
+
+/* =========================
+   RESPONSIVE — TABLET 768×1024
+========================= */
+@media (max-width: 992px) {
+    .container {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    /* Header */
+    .hashtag-icons {
+        display: none;
+    }
+
+    .top-header {
+        height: 70px;
+        padding: 12px 0;
+    }
+
+    /* Nav bar — ẩn home icon, chỉ giữ menu items + search + hamburger */
+    .hot-topic {
+        gap: 14px;
+        font-size: 12px;
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    /* Top news — ẩn left-news, 2 cột */
+    .top-news {
+        grid-template-columns: 1fr 280px;
+    }
+
+    #left-news {
+        display: none;
+    }
+
+    .featured-news-item {
+        border-left: none;
+    }
+
+    .featured-news-item img {
+        width: 100%;
+        height: 220px;
+    }
+
+    /* Articles */
+    .article-card {
+        width: 100%;
+    }
+
+    .article-image img {
+        width: 180px;
+        height: 120px;
+    }
+
+    .article-title {
+        font-size: 18px;
+    }
+
+    /* Mega menu */
+    #mega-menu {
+        width: 100%;
+        top: 112px;
+        left: 0;
+        transform: none;
+    }
+
+    .mega-menu-content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Footer */
+    #bottom-footer .container {
+        grid-template-columns: 160px 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .footer-info {
+        grid-column: 1 / -1;
+        padding-left: 0;
+        border-top: 1px solid rgba(255,255,255,0.3);
+        padding-top: 12px;
+    }
+}
+
+/* =========================
+   RESPONSIVE — MOBILE 375×667
+========================= */
+@media (max-width: 767px) {
+
+    /* ── HEADER ── */
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #fff;
+    }
+
+    .top-header {
+        height: 52px;
+        padding: 8px 12px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .header-logo { padding: 0; }
+    .header-logo img { width: 130px; height: auto; }
+    .hashtag-icons { display: none; }
+
+    /* Nav bar: ẩn menu text, home icon; chỉ giữ search + hamburger */
+    .hot-topics { height: 44px; }
+    .hot-topic { display: none; }
+    .home-icon { display: none; }
+    .search-icon { margin-left: auto; margin-right: 12px; }
+    .menu-icon { margin-left: 0; margin-right: 12px; }
+
+    /* Mega menu */
+    #mega-menu {
+        width: 100%;
+        left: 0;
+        transform: none;
+        top: 96px;
+        padding: 16px;
+    }
+    .mega-menu-content { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .mega-menu-bottom { gap: 16px; flex-wrap: wrap; }
+
+    /* ── TOP NEWS: chỉ hiện featured, ẩn left + right ── */
+    .top-news { display: block; margin-top: 0; }
+    #left-news { display: none; }
+    #right-news { display: none; }
+
+    /* Featured news mobile: ảnh → title → category → desc (thứ tự HTML tự nhiên) */
+    #featured-news { height: auto; }
+
+    .featured-news-item {
+        border: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured-news-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .featured-news-item .featured-news-title {
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.4;
+        margin: 12px 12px 6px;
+    }
+
+    .featured-news-item .featured-news-category {
+        margin: 0 12px 6px;
+    }
+
+    .featured-news-item .featured-news-desc {
+        font-size: 13px;
+        color: #444;
+        margin: 0 12px 12px;
+        line-height: 1.6;
+    }
+
+    /* ── MOBILE FEATURED CARD (right news render lại dạng card) ── */
+    #mobile-featured-cards {
+        display: block;
+    }
+
+    .mobile-featured-card {
+        padding: 12px;
+        border-bottom: 6px solid #f0f0f0;
+        background: #fff;
+    }
+
+    .mobile-featured-card .mfc-title {
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 1.4;
+        margin-bottom: 6px;
+        color: #111;
+    }
+
+    .mobile-featured-card .mfc-title .mfc-icon {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background: #ccc;
+        margin-right: 4px;
+        vertical-align: middle;
+    }
+
+    .mobile-featured-card .mfc-desc {
+        font-size: 13px;
+        color: #444;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .mobile-featured-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .mobile-featured-card .mfc-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 0 4px;
+    }
+
+    .mobile-featured-card .mfc-share {
+        font-size: 12px;
+        color: #555;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    /* ── ARTICLE LIST: text trái, ảnh phải ── */
+    .content-section { flex-direction: column; margin-top: 0; }
+    #sidebar { display: none; }
+
+    #article-list {
+        width: 100%;
+        padding: 0;
+    }
+
+    .article-card {
+        width: 100%;
+        padding: 12px;
+        border-bottom: 1px solid #e6e6e6;
+        margin-right: 0;
+        gap: 10px;
+        flex-direction: row; /* text trái, ảnh phải */
+        align-items: flex-start;
+    }
+
+    /* Text trái, ảnh phải — theo thứ tự HTML tự nhiên */
+    .article-card .article-content { flex: 1; }
+    .article-card .article-image   { flex-shrink: 0; }
+
+    .article-image img {
+        width: 100px;
+        height: 75px;
+        object-fit: cover;
+    }
+
+    /* Mobile: category trên, title dưới (theo thứ tự HTML tự nhiên) */
+    .article-title {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.4;
+        margin-bottom: 4px;
+    }
+
+    .article-content .news-topic { display: block; margin-bottom: 4px; }
+    .article-excerpt { display: none; } /* ẩn excerpt trên mobile */
+
+    /* ── LOAD MORE ── */
+    .load-more-container { margin: 20px 0 80px; }
+
+    /* ── FOOTER ── */
+    footer .hot-topics { display: none; }
+
+    #bottom-footer {
+        background: #fff;
+        border-top: 1px solid #e6e6e6;
+        padding-bottom: 80px;
+    }
+
+    #bottom-footer .container {
+        display: block;
+        padding: 20px 16px;
+        min-height: auto;
+    }
+
+    .footer-logo { padding: 0 0 12px 0; }
+    .footer-logo img { width: 130px; height: auto; }
+
+    .footer-contacts {
+        border-right: none;
+        border-bottom: 1px solid #e6e6e6;
+        padding-right: 0;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        color: #222;
+    }
+    .footer-contacts h3 { color: #222; font-size: 14px; font-weight: bold; text-transform: uppercase; }
+    .footer-contacts p, .footer-contacts a { color: #333; font-size: 13px; }
+
+    .footer-info { padding-left: 0; color: #333; }
+    .footer-info p { color: #333; font-size: 13px; }
+
+    /* ── BOTTOM NAV BAR ── */
+    .mobile-bottom-nav {
+        display: flex;
+        position: fixed;
+        bottom: 0; left: 0;
+        width: 100%;
+        height: 60px;
+        background: #fff;
+        border-top: 1px solid #e6e6e6;
+        z-index: 2000;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mobile-nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        font-size: 11px;
+        color: #333;
+        cursor: pointer;
+        flex: 1;
+    }
+
+    .mobile-nav-item img { width: 22px; height: 22px; }
+    .mobile-nav-item.active { color: #095AAA; }
+    .mobile-nav-item.active img {
+        filter: invert(27%) sepia(90%) saturate(1000%) hue-rotate(195deg) brightness(90%);
+    }
+}
+
+/* Desktop/Tablet: ẩn bottom nav và mobile featured cards */
+@media (min-width: 768px) {
+    .mobile-bottom-nav { display: none; }
+    #mobile-featured-cards { display: none; }
+}
+.hot-topic-text.active{
+    background-color: #0B4888;
+}

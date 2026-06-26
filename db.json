@@ -1,0 +1,357 @@
+{
+  "hashtags": [
+    "Biểu tình diễn ra tại Mỹ",
+    "Nhân sự,Đại hội Đảng các cấp",
+    "Dịch Covid19"
+  ],
+  "topMenu": [
+    "Trang chủ",
+    "Sự kiện",
+    "doanh nghiệp",
+    "tiếp thị",
+    "kinh tế",
+    "xã hội",
+    "Pháp luật",
+    "quốc tế",
+    "video"
+  ],
+  "megaMenu": [
+    {
+      "title": "SỰ KIỆN",
+      "items": [
+        "Chính trị - Xã hội",
+        "Cải cách hành chính",
+        "Tiêu điểm",
+        "Tin địa phương",
+        "Hoạt động của Hội"
+      ]
+    },
+    {
+      "title": "DOANH NGHIỆP",
+      "items": [
+        "Diễn đàn",
+        "Thương hiệu",
+        "Thông tin thương hiệu",
+        "Trách nhiệm xã hội",
+        "Khởi nghiệp"
+      ]
+    },
+    {
+      "title": "TIẾP THỊ",
+      "items": [
+        "Nhịp đập thị trường",
+        "Tiếp thị số",
+        "Dịch vụ",
+        "Bảo vệ người tiêu dùng"
+      ]
+    },
+    {
+      "title": "KINH TẾ",
+      "items": [
+        "Kinh doanh",
+        "Tài chính - Đầu tư",
+        "Ngân hàng",
+        "Bất động sản",
+        "Chứng khoán"
+      ]
+    },
+    {
+      "title": "XÃ HỘI",
+      "items": [
+        "Văn hóa",
+        "Giáo dục",
+        "Sức khỏe",
+        "Du lịch",
+        "Ẩm thực"
+      ]
+    },
+    {
+      "title": "PHÁP LUẬT",
+      "items": [
+        "Chính sách mới",
+        "Tiếp thị và Pháp luật",
+        "Tư vấn",
+        "Luật sư của bạn",
+        "Đơn thư bạn đọc"
+      ]
+    },
+    {
+      "title": "QUỐC TẾ",
+      "items": [
+        "Thế giới 24H",
+        "Tư liệu",
+        "Phân tích - Bình luận"
+      ]
+    }
+  ],
+  "megaMenuBottom": [
+    {
+      "icon": "assets/icons/video_icon.svg",
+      "title": "VIDEO"
+    },
+    {
+      "icon": "assets/icons/image_icon.svg",
+      "title": "ẢNH"
+    },
+    {
+      "icon": "assets/icons/infographic_icon.svg",
+      "title": "INFOGRAPHIC"
+    },
+    {
+      "icon": "assets/icons/emagazine_icon.svg",
+      "title": "EMAGAZINE"
+    },
+    {
+      "icon": "assets/icons/magazine_icon.svg",
+      "title": "TẠP CHÍ IN"
+    }
+  ],
+  "leftNews": [
+    {
+      "category": "doanh nghiệp",
+      "title": "T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên"
+    },
+    {
+      "category": "xã hội",
+      "title": "Hdbank tham gia Tradeassets nhằm số hóa hoạt động tài trợ thương mại"
+    },
+    {
+      "category": "pháp luật",
+      "title": "Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện \"bình thường mới\""
+    },
+    {
+      "category": "Doanh nghiệp",
+      "title": "Doanh nghiệp Việt đẩy mạnh chuyển đổi số"
+    }
+  ],
+  "featuredNews": {
+    "category": "xã hội",
+    "title": "Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện \"bình thường mới\"",
+    "image": "assets/images/featured_im1.png",
+    "description": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm"
+  },
+  "rightNews": [
+    {
+      "category": "Kinh tế",
+      "title": "Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện \"bình thường mới\"",
+      "image": "assets/images/right_im1.png",
+      "description": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để..."
+    },
+    {
+      "category": "pháp luật",
+      "title": "Hà Nội triển khai một số nhiệm vụ tài chính - ngân sách trong điều kiện ảnh hưởng của dịch bệnh Covid-19",
+      "image": "assets/images/right_im2.png",
+      "description": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm...   "
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?",
+      "category": "kinh tế",
+      "image": "assets/images/articles_im1.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm"
+    },
+    {
+      "id": 2,
+      "title": "Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm \"khủng\"",
+      "category": "xã hội",
+      "image": "assets/images/articles_im2.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm"
+    },
+    {
+      "id": 3,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Doanh nghiệp",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm"
+    },
+    {
+      "id": 4,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Thế giới",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm4."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 5,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm5."
+    },
+    {
+      "id": 6,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm6."
+    },
+    {
+      "id": 7,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Giáo dục",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm7."
+    },
+    {
+      "id": 8,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Pháp luật",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm8."
+    },
+    {
+      "id": 9,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Doanh nghiệp",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm9."
+    },
+    {
+      "id": 10,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Xã hội",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm10."
+    },
+    {
+      "id": 11,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Kinh tế",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm11."
+    },
+    {
+      "id": 12,
+      "title": "Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?",
+      "category": "Thế giới",
+      "image": "assets/images/articles_im3.png",
+      "excerpt": "Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm12."
+    }
+  ],
+  "sidebar": {
+    "banners": []
+  },
+  "footer": {
+    "name": "Logo Here Newspaper",
+    "address": "85 Vũ Trọng Phụng, Thanh Xuân, Hà Nội",
+    "hotline": "0912 345 678",
+    "email": "abc@gmail.com",
+    "editor": "Nguyễn Văn A",
+    "deputy": "Trần Thị B",
+    "license": "Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng văn bản của cơ quan chủ quản."
+  }
+}
